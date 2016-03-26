@@ -42,6 +42,7 @@ body {
 			<div class="container">
 				<a class="brand" href="addGoal.html"> Get started </a>
 				<ul class="nav">
+					<li><a href="">Logout</a></li>
 				</ul>
 			</div>
 		</div>
