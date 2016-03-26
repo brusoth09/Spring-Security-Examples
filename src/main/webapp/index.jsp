@@ -1,5 +1,6 @@
 <%@ taglib prefix="sec"
 	uri="http://www.springframework.org/security/tags"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -42,7 +43,7 @@ body {
 			<div class="container">
 				<a class="brand" href="addGoal.html"> Get started </a>
 				<ul class="nav">
-					<li><a href="">Logout</a></li>
+					<li><a href="<c:url value="logout.html"/>">Logout</a></li>
 				</ul>
 			</div>
 		</div>
